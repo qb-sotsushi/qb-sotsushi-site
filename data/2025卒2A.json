@@ -31,7 +31,7 @@
 {
   "id": 5,
   "question": "経食道心エコー(別冊No.1写真)を別に示す。正しいのはどれか。2つ選べ。<br><br>a Aは僧帽弁後尖である。<br>b Bは右房である。<br>c Cは右室である。<br>d Dは大動脈弁である。<br>e Eは胸部下行大動脈である。",
-  "image": "20252A5.jpg",
+  "image": "20252A05.jpg",
   "answer": ["d", "e"],
   "explanation": "a 僧帽弁前尖<br>b 左房<br>c 左室<br>d 大動脈弁<br>e 胸部下行大動脈"
 },
