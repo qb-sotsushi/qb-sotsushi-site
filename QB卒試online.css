@@ -1,0 +1,314 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+/* 通常ボタン */
+button {
+    width: 250px;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+
+/* 問題カード */
+#questionBox {
+
+    width: 90%;
+    max-width: 800px;
+
+    margin: 30px auto;
+
+    padding: 25px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+    text-align: left;
+
+}
+
+
+
+/* 問題番号 */
+#questionNumber {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+/* 進捗 */
+#progress {
+
+    color: #666;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* 問題文 */
+#questionText {
+
+    text-align: left;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* 問題画像 */
+#questionImage {
+
+    display: block;
+
+    max-width: 600px;
+
+    width: 90%;
+
+    margin: 20px auto;
+
+}
+
+
+
+/* 選択肢 */
+.options {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* 解答ボタン */
+.answerButton {
+
+    display: inline-block;
+
+    width: 50px;
+
+    height: 40px;
+
+    margin: 5px;
+
+    padding: 5px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ccc;
+
+    font-size: 18px;
+
+}
+
+
+
+/* 選択中 */
+.selected {
+
+    background-color: #fff9c4;
+
+}
+
+
+
+/* 正解 */
+.correct {
+
+    background-color: #16a34a;
+
+    color: white;
+
+}
+
+
+
+/* 不正解 */
+.incorrect {
+
+    background-color: #dc2626;
+
+    color: white;
+
+}
+
+
+
+/* 操作ボタン */
+.controlButtons {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 25px;
+
+    width: 100%;
+
+}
+
+
+
+/* 操作ボタンサイズ */
+.controlButtons button {
+
+    width: 30%;
+
+    max-width: 180px;
+
+    padding: 12px 5px;
+
+    font-size: 16px;
+
+}
+
+
+
+/* 解答部分 */
+#answer {
+
+    width: 90%;
+
+    max-width: 800px;
+
+    margin: 20px auto;
+
+}
+
+
+
+/* 正解表示 */
+#result {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin: 15px;
+
+}
+
+
+
+/* 解説カード */
+#explanationBox {
+
+    width: 90%;
+
+    max-width: 800px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+    text-align: left;
+
+    line-height: 1.8;
+
+}
+
+
+
+/* 解説 */
+#explanation {
+
+    text-align: left;
+
+    line-height: 1.8;
+
+}
+
+
+
+/* スマホ対応 */
+@media screen and (max-width:600px){
+
+
+    #questionBox {
+
+        width: 90%;
+
+        padding: 15px;
+
+    }
+
+
+
+    #questionText {
+
+        font-size: 16px;
+
+    }
+
+
+
+    .answerButton {
+
+        width: 45px;
+
+        height: 38px;
+
+    }
+
+
+
+    .controlButtons button {
+
+        width: 32%;
+
+        font-size: 14px;
+
+        padding: 10px 2px;
+
+    }
+
+
+}
+
+.controlButtons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.controlButtons button {
+    width: 120px;
+    margin: 5px;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+2025年度 卒業試験2 Aブロック - QB卒試online
+</title>
+
+<link rel="stylesheet" href="css/QB卒試online.css">
+
+</head>
+
+
+<body>
+
+
+<h1>
+2025年度 卒業試験2
+</h1>
+
+
+<p>
+Aブロック
+</p>
+
+
+<hr>
+
+
+
+
+
+<!-- 問題カード -->
+
+<div id="questionBox">
+
+
+<h2 id="questionNumber">
+第1問
+</h2>
+
+
+
+<p id="progress">
+</p>
+
+
+
+
+
+<p id="questionText">
+</p>
+
+
+
+
+
+<img id="questionImage">
+
+
+
+
+
+
+
+<!-- 選択肢 -->
+
+<div class="options">
+
+
+<button class="answerButton" id="btn-a" onclick="selectAnswer('a')">
+a
+</button>
+
+
+<button class="answerButton" id="btn-b" onclick="selectAnswer('b')">
+b
+</button>
+
+
+<button class="answerButton" id="btn-c" onclick="selectAnswer('c')">
+c
+</button>
+
+
+<button class="answerButton" id="btn-d" onclick="selectAnswer('d')">
+d
+</button>
+
+
+<button class="answerButton" id="btn-e" onclick="selectAnswer('e')">
+e
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- 操作ボタン -->
+
+<div class="controlButtons">
+
+
+<button id="prevButton" onclick="prevQuestion()">
+← 前の問題
+</button>
+
+
+
+<button id="checkButton" onclick="checkAnswer()">
+回答する
+</button>
+
+
+
+<button id="nextButton" onclick="nextQuestion()">
+次の問題 →
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- 解説 -->
+
+<div id="answer" style="display:none;">
+
+
+<div id="explanationBox">
+
+
+<h3 id="result">
+</h3>
+
+
+
+<h3>
+解説
+</h3>
+
+
+
+<p id="explanation">
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+const jsonFile = "data/2025卒2A.json";
+
+</script>
+
+
+
+<script src="js/QB卒試online.js"></script>
+
+
+
+</body>
+
+</html>
