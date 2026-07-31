@@ -7,25 +7,24 @@ import {
 from "https://www.gstatic.com/firebasejs/12.17.0/firebase-auth.js";
 
 
+console.log("auth.js読み込み");
 
-// ログイン状態確認
 
 onAuthStateChanged(auth, function(user){
 
 
-    if(!user){
+    console.log("ユーザー:", user);
 
+
+
+    if(!user){
 
         location.href = "ログイン.html";
 
         return;
 
-
     }
 
-
-
-    // ログイン済みならログアウトボタン作成
 
     createLogoutButton();
 
@@ -36,19 +35,10 @@ onAuthStateChanged(auth, function(user){
 
 
 
-// ログアウトボタン作成
-
 function createLogoutButton(){
 
 
-    // すでに存在する場合は作らない
-
-    if(document.getElementById("logoutButton")){
-
-        return;
-
-    }
-
+    console.log("ログアウトボタン作成");
 
 
     let button = document.createElement("button");
@@ -70,15 +60,6 @@ function createLogoutButton(){
 
 
             location.href = "ログイン.html";
-
-
-        })
-
-
-        .catch(function(error){
-
-
-            console.log(error);
 
 
         });
