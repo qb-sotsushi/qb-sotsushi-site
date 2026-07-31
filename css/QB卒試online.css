@@ -332,3 +332,22 @@ button {
     z-index: 1000;
 
 }
+#backButton {
+
+    position: fixed;
+
+    top: 15px;
+
+    left: 15px;
+
+    width: 150px;
+
+    padding: 10px;
+
+    font-size: 15px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+}
