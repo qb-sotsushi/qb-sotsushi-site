@@ -1,5 +1,5 @@
 // Firebase認証確認
-import { auth } from "./firebase.js";
+import { auth } from "js/firebase.js";
 
 import {
     onAuthStateChanged
