@@ -62,7 +62,7 @@ document
 
 
         // ログイン成功
-        location.href = "index.html";
+        location.href = "QB卒試online.html";
 
 
     })
