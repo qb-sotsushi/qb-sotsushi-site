@@ -1,29 +1,3 @@
-// Firebase認証確認
-import { auth } from "./firebase.js";
-
-import {
-    onAuthStateChanged
-}
-from "https://www.gstatic.com/firebasejs/12.17.0/firebase-auth.js";
-
-
-// ログイン状態確認
-
-onAuthStateChanged(auth, function(user){
-
-
-    if(!user){
-
-
-        // 未ログインならログイン画面へ
-
-        location.href = "ログイン.html";
-
-
-    }
-
-
-});
 
 
 // 現在の問題データ
