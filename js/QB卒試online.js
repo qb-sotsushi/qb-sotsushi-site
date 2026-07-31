@@ -17,7 +17,7 @@ onAuthStateChanged(auth, function(user){
 
         // 未ログインならログイン画面へ
 
-        location.href = "login.html";
+        location.href = "ログイン.html";
 
 
     }
